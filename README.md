@@ -16,7 +16,7 @@ o node deverá estar instalado na máquina.
 Abra o terminal e execute:
 
 ```
-git clone https://github.com/JulianoMarinho/DesafioFinalCappacitaDev.git
+git clone https://github.com/JulianoMarinho/ProjetoCappacitaDev.git
 ```
 Após baixar o projeto, acesse a pasta do projeto e execute:
 
