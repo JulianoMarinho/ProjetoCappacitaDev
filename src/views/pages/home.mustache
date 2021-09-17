@@ -1,0 +1,35 @@
+{{> partials/header }}
+
+<div class="row">
+  <div class="container">
+    <h2 class="bg-dark text-light p-2">{{ category }}</h2>
+  </div>
+  <!--campo para trazer os dados-->
+  {{#data}}
+
+  <div class="col-3">
+    <div class="card my-3 bg-light shadow">
+      <img
+        class="card-img-top img-fluid"
+        src="https://image.tmdb.org/t/p/w500/{{ poster_path }}"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5
+          class="card-title font-weight-bold border-bottom"
+          title="{{ title }}"
+        >
+          {{ title }}
+        </h5>
+        <p class="card-text small">{{ release_date }}</p>
+        <!--Para pegar o Id da resposta-->
+        <a href="/detail/{{ id }}" class="btn btn-primary btn-sm">
+          + Detalhes</a
+        >
+      </div>
+    </div>
+  </div>
+  {{/data}}
+</div>
+
+{{> partials/footer }}
