@@ -51,7 +51,6 @@ npm start
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
 
 * [Bootstrap](https://getbootstrap.com/) - O framework front end usado
 * [Mustache-express](https://www.npmjs.com/package/mustache-express) - Biblioteca multi linguagens
@@ -59,7 +58,6 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## ✒️ Autor
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 * **Desenvolvedor** - [Juliano](https://github.com/JulianoMarinho)
 
